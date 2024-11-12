@@ -31,10 +31,16 @@ Training classification models with a group of predicted fluorescence maps. The 
 python FluoCastBright_Pipeline.py --Option CM_Train --CMTrain_Device_To_Use <cuda:0 or cpu> --CMTrain_PFM_Directory <path to predicted fluorescence maps for training> --CMTrain_Models_Directory <path to output classification models>
 ```
 
-Testing the accuracy of classification models on their respective validation set images.
+Testing the accuracy of classification models generated in the previous step on their respective validation set images.
 
 ```bash
-python FluoCastBright_Pipeline.py --Option CM_Test --CMTest_Device_To_Use <cuda:0 or cpu>
+python FluoCastBright_Pipeline.py --Option CM_Test --CMTest_Device_To_Use <cuda:0 or cpu> --CMTest_PFM_Directory <path to predicted fluorescence maps used for training> --CMTest_Models_Directory <path to classification models>
+```
+
+Apply existing classifcation models to classify fluorescence prediction maps generated from new brightfield images, for this step the images can be with or without true classification in file names. The image format is (Z,X,Y).
+
+```bash
+python FluoCastBright_Pipeline.py --Option CMPredict --CMPredict_Device_To_Use <cuda:0 or cpu> --CMPredict_PFM_Directory <path to predicted fluorescence maps> --CMPredict_Models_Directory
 ```
 
 **Thanks for your interest in our work!**
