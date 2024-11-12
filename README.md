@@ -31,4 +31,4 @@ Training classification models with a group of predicted fluorescence maps. The 
 python FluoCastBright_Pipeline.py --Option FPM_Predict --FPMPredict_Device_To_Use <cuda:0 or cpu> --FPMPredict_Image_Directory <path to brightfield images> --FPMPredict_PFM_Directory <path to output predicted fluorescence maps> --FPMPredict_ModelFolder_Directory <path to model> --FPMPredict_FPMModel_Name <model name>
 ```
 
-## Thanks for your interest in our work!
+Thanks for your interest in our work!
