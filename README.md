@@ -22,6 +22,8 @@ Make sure to end every directory and path with /
 python FluoCastBright_Pipeline.py --Option FPM_Train --FPMTrain_TrainImage_Directory <path to training images> --FPMTrain_ValidImage_Directory <path to validation images> --FPMTrain_LogFolder_Directory <path to log folder> --FPMTrain_ModelFolder_Directory <path to model ouptut folder>
 ```
 
+If GPU limits reached reduce batch size and starting channel number.
+
 Utilizing an existing fluorescence prediction model to analyze a group of new brightfield images. The image format is (Z,X,Y).
 
 ```bash
