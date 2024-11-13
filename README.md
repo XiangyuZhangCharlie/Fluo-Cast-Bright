@@ -2,7 +2,9 @@
 
 This is the code repository for the Fluo-Cast-Bright pipeline in the paper "Fluo-Cast-Bright: A Deep Learning Pipeline for the Non-Invasive Prediction of Chromatin Structure and Developmental Potential in Live Oocytes" published on Communications Biology.
 
-## 1. Installation
+This code is in active development and adaptation to other cellular applications. We are not maintaining and supporting this code and are simply releaseing the code to the community AS IS. The community is welcome to submit issues but active response is not guaranteed.
+
+## Installation
 
 The environment required for running Fluo-Cast-Bright pipeline can be installed using Anaconda/Miniconda:
 
@@ -12,7 +14,7 @@ conda activate fluocastbright_env
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 ```
 
-## 2. Application
+## Application
 
 Training a fluorescence prediction model with training and validation images in separate folders. The image format is (2,Z,X,Y). The first dimension represents the bright-field image and the corresponding fluorescence map.
 
