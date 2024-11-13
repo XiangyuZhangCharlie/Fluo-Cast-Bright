@@ -1,5 +1,5 @@
-3-clause BSD license plus a fourth clause that prohibits redistribution and use for
-commercial purposes without further permission.
+3-clause BSD license plus an additional clause that prohibits redistribution and
+application for commercial purposes without further permission.
 
 Copyright (c) 2024, Rabindranath De La Fuente, Xiangyu Zhang, Claudia Baumann
 All rights reserved.
@@ -18,8 +18,10 @@ modification, are permitted provided that the following conditions are met:
    contributors may be used to endorse or promote products derived from
    this software without specific prior written permission.
 
-4. Redistributions and use for commercial purposes are not permitted without
-   written permission from 
+4. Redistributions and application for commercial purposes are not permitted
+   without written permission from the copyright holders. Commercial purpose
+   include but is not limited to, selling, distributing, or incorporating it
+   into a product intended for commercial sale.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
