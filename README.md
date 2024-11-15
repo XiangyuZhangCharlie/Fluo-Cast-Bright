@@ -49,7 +49,7 @@ python FluoCastBright_Pipeline.py --Option CM_Test --CMTest_PFM_Directory <path 
 Apply existing classifcation models to classify fluorescence prediction maps generated from new brightfield images, for this step the images can be with or without true classification in file names. The image format is (Z,X,Y).
 
 ```bash
-python FluoCastBright_Pipeline.py --Option CMPredict --CMPredict_PFM_Directory <path to predicted fluorescence maps> --CMPredict_Models_Directory <path to classification models>
+python FluoCastBright_Pipeline.py --Option CM_Predict --CMPredict_PFM_Directory <path to predicted fluorescence maps> --CMPredict_Models_Directory <path to classification models>
 ```
 
 **Thanks for your interest in our work!**
