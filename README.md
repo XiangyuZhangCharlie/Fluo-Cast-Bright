@@ -2,9 +2,9 @@
 
 ![FluoCastBright](https://github.com/user-attachments/assets/31bac245-363d-49e9-bbda-4b9349364b7e)
 
-This is the code repository for the Fluo-Cast-Bright pipeline in the paper "Fluo-Cast-Bright: A Deep Learning Pipeline for the Non-Invasive Prediction of Chromatin Structure and Developmental Potential in Live Oocytes" published on Communications Biology.
+Code repository for the Fluo-Cast-Bright pipeline in the paper "Fluo-Cast-Bright: A Deep Learning Pipeline for the Non-Invasive Prediction of Chromatin Structure and Developmental Potential in Live Oocytes" published on Communications Biology.
 
-This code is in active development and adaptation to other cellular applications. We are not maintaining this code and are simply releaseing the code to the community AS IS. The community is welcome to post issues but active response is not guaranteed.
+This code is in active development and adaptation to other cellular applications. We are not maintaining this code and are simply releaseing the code to the community AS IS. Active response is not guaranteed.
 
 ## Installation
 
