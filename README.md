@@ -46,7 +46,7 @@ Testing the accuracy of classification models generated in the previous step on 
 python FluoCastBright_Pipeline.py --Option CM_Test --CMTest_PFM_Directory <path to predicted fluorescence maps used for training> --CMTest_Models_Directory <path to classification models>
 ```
 
-Apply existing classifcation models to classify fluorescence prediction maps generated from new brightfield images. For this step the images can be with or without true classification in file names. The image format is (Z,X,Y).
+Apply existing classification models to classify fluorescence prediction maps generated from new brightfield images. For this step the images can be with or without true classification in file names. The image format is (Z,X,Y).
 
 ```bash
 python FluoCastBright_Pipeline.py --Option CM_Predict --CMPredict_PFM_Directory <path to predicted fluorescence maps> --CMPredict_Models_Directory <path to classification models>
