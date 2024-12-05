@@ -2,7 +2,7 @@
 
 ![FluoCastBright](https://github.com/user-attachments/assets/31bac245-363d-49e9-bbda-4b9349364b7e)
 
-Code repository for the Fluo-Cast-Bright pipeline in the paper "Xiangyu Zhang, Claudia Baumann, Rabindranath De La Fuente: Fluo-Cast-Bright: A Deep Learning Pipeline for the Non-Invasive Prediction of Chromatin Structure and Developmental Potential in Live Oocytes" published on Communications Biology.
+Code repository for the Fluo-Cast-Bright pipeline "Xiangyu Zhang, Claudia Baumann, Rabindranath De La Fuente: Fluo-Cast-Bright: A Deep Learning Pipeline for the Non-Invasive Prediction of Chromatin Structure and Developmental Potential in Live Oocytes" published on Communications Biology.
 
 This code is in active development and adaptation to other cellular applications. We are not maintaining this code and are simply releaseing the code to the community AS IS. Active response is not guaranteed.
 
@@ -26,7 +26,7 @@ Make sure to end every directory and path with /
 python FluoCastBright_Pipeline.py --Option FPM_Train --FPMTrain_TrainImage_Directory <path to training images> --FPMTrain_ValidImage_Directory <path to validation images> --FPMTrain_LogFolder_Directory <path to log folder> --FPMTrain_ModelFolder_Directory <path to model ouptut folder>
 ```
 
-If GPU limits reached reduce batch size and starting channel number.
+If GPU limits, reached reduce batch size and starting channel number.
 
 Utilizing an existing fluorescence prediction model to analyze a group of new brightfield images. The image format is (Z,X,Y).
 
@@ -34,7 +34,7 @@ Utilizing an existing fluorescence prediction model to analyze a group of new br
 python FluoCastBright_Pipeline.py --Option FPM_Predict --FPMPredict_Image_Directory <path to brightfield images> --FPMPredict_PFM_Directory <path to output predicted fluorescence maps> --FPMPredict_ModelFolder_Directory <path to model> --FPMPredict_FPMModel_Name <model name>
 ```
 
-Training classification models with a group of predicted fluorescence maps. The image format is (Z,X,Y) and the correct classification labels are in the file names.
+Training classification models with a group of predicted fluorescence maps. The image format is (Z,X,Y), and the correct classification labels are in the file names.
 
 ```bash
 python FluoCastBright_Pipeline.py --Option CM_Train --CMTrain_PFM_Directory <path to predicted fluorescence maps for training> --CMTrain_Models_Directory <path to output classification models>
@@ -46,7 +46,7 @@ Testing the accuracy of classification models generated in the previous step on 
 python FluoCastBright_Pipeline.py --Option CM_Test --CMTest_PFM_Directory <path to predicted fluorescence maps used for training> --CMTest_Models_Directory <path to classification models>
 ```
 
-Apply existing classifcation models to classify fluorescence prediction maps generated from new brightfield images, for this step the images can be with or without true classification in file names. The image format is (Z,X,Y).
+Apply existing classifcation models to classify fluorescence prediction maps generated from new brightfield images. For this step the images can be with or without true classification in file names. The image format is (Z,X,Y).
 
 ```bash
 python FluoCastBright_Pipeline.py --Option CM_Predict --CMPredict_PFM_Directory <path to predicted fluorescence maps> --CMPredict_Models_Directory <path to classification models>
