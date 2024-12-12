@@ -16,6 +16,8 @@ conda activate fluocastbright_env
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 ```
 
+Tested on Windows 10.
+
 ## Application
 
 Training a fluorescence prediction model with training and validation images in separate folders. The image format is (2,Z,X,Y). The first dimension represents the bright-field image and the corresponding fluorescence map.
