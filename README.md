@@ -8,10 +8,10 @@ This code is in active development and adaptation to other cellular applications
 
 ## Installation
 
-The environment required for running Fluo-Cast-Bright pipeline can be installed using Anaconda/Miniconda on Windows:
+The environment required for running Fluo-Cast-Bright pipeline can be installed using Anaconda/Miniconda on Windows or Linux:
 
 ```bash
-conda env create -f Environment.yml
+conda env create -f [Environment_Windows.yml or Environment_Linux.yml]
 conda activate fluocastbright_env
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 ```
