@@ -4,7 +4,10 @@
 
 import torch
 import numpy as np
-from scipy.signal import triang
+try:
+	from scipy.signal import triang
+except:
+	from scipy.signal.windows import triang
 
 def Flip_Y(Input_Array):
 	return np.flip(Input_Array, axis=-2)
