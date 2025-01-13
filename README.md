@@ -2,7 +2,7 @@
 
 ![FluoCastBright](https://github.com/user-attachments/assets/31bac245-363d-49e9-bbda-4b9349364b7e)
 
-Code repository for the Fluo-Cast-Bright pipeline "Xiangyu Zhang, Claudia Baumann, Rabindranath De La Fuente: Fluo-Cast-Bright: A Deep Learning Pipeline for the Non-Invasive Prediction of Chromatin Structure and Developmental Potential in Live Oocytes" published on Communications Biology.
+Code repository for the Fluo-Cast-Bright pipeline "Xiangyu Zhang, Claudia Baumann, Rabindranath De La Fuente: Fluo-Cast-Bright: A Deep Learning Pipeline for the Non-Invasive Prediction of Chromatin Structure and Developmental Potential in Live Oocytes" published in Communications Biology.
 
 This code is in active development and adaptation to other cellular applications. We are not maintaining this code and are simply releasing the code to the community AS IS. Active response is not guaranteed.
 
